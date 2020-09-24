@@ -27,8 +27,7 @@ class String
   end
 
   def count_sentences
-    na = []
-    na << self.split(/\.|\?|\!/)
+    self.split(/\.|\?|\!/)
     na.delete_if do |x|
       x = ""
     end
