@@ -27,10 +27,6 @@ class String
   end
 
   def count_sentences
-    self.split(/\.|\?|\!/)
-    na.delete_if do |x|
-      x = ""
-    end
-    na.count
+    self.split(/^[A-Z].+\.$/).count
   end
 end
