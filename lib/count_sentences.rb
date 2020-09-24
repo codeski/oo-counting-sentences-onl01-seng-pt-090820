@@ -32,7 +32,7 @@ class String
     na.delete_if do |x|
       x = ""
     end
-    na.count
+    na.length
   end
   
 end
