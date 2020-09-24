@@ -31,6 +31,8 @@ class String
     na = self.split(/\.|\?|\!/)
     na.delete_if do |x|
       x = ""
+    end
+    na.count
   end
-  na.count
+  
 end
