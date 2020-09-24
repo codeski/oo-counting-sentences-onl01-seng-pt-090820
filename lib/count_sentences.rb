@@ -27,6 +27,6 @@ class String
   end
 
   def count_sentences
-    self.split(/^[A-Za-z].+\.|\?|\!$/).count
+    self.split().count
   end
 end
