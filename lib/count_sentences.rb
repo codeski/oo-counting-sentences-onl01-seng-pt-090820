@@ -30,7 +30,7 @@ class String
     na = []
     na = self.split(/\.|\?|\!/)
     na.delete_if do |x|
-      x = ""
+      x = 
     end
     na.count
   end
